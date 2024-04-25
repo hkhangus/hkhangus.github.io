@@ -21,6 +21,10 @@ export default function Navbar(){
             link: "/resume"
         },
         {
+            title: "My blogs",
+            link: "/blogs"
+        },
+        {
             title: "Email me",
             link: "mailto:huukhangtc@gmail.com"
         }
@@ -41,7 +45,7 @@ export default function Navbar(){
     }
 
     return(     
-        <div className=" top-0 fixed w-full mx-auto py-4 bg-cyan-200 bg-opacity-50 dark:text-white">
+        <div className=" top-0 fixed w-full mx-auto py-4 bg-cyan-200 bg-opacity-50 dark:text-white z-10">
             {/* <div className=" absolute m-0 top-1/2 -translate-y-1/2 w-full p-4"> */}
                 {/* <h1 className=" font-light text-3xl mb-10">Nguyen Huynh Huu Khang</h1> */}
                 <div className=" absolute right-0 mr-4">

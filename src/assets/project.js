@@ -10,8 +10,19 @@ export const projects = [
     github: "https://github.com/hkhangus/learn-go-with-tests",
   },
   {
+    title: "Natours",
+    techstack: ["JavaScript,", "NodeJS,", "ExpressJS,", "MongoDB"],
+    task: [
+      "Designed and developed RESTful API using ExpressJS and MongoDB",
+      "Experimented with middleware and the request-response cycle",
+      "Experimented with authentication, authorization, JWT, and basic security",
+      "Modeled data such as referencing vs embedding",
+    ],
+    github: ""
+  },
+  {
     title: "Coffee Shop - eCommmerce",
-    class: "Web Development",
+    class: "Web Application Development",
     techstack: [
       "ReactJS,",
       "Tailwind CSS,",
