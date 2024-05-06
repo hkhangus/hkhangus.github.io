@@ -18,7 +18,7 @@ export const projects = [
       "Experimented with authentication, authorization, JWT, and basic security",
       "Modeled data such as referencing vs embedding",
     ],
-    github: ""
+    github: "https://github.com/hkhangus/learn-expressjs-mongodb"
   },
   {
     title: "Coffee Shop - eCommmerce",
