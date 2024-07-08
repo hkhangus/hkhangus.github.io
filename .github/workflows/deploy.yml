@@ -33,7 +33,11 @@ jobs:
 
       # install dependencies
       - name: Install dependencies
-        run: yarn add
+        run: npm i
+
+      # add yarn packags
+      - name: Install yarn
+        run: npm install -g yarn 
 
       # build the react app
       - name: Build
